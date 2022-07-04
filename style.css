@@ -7,9 +7,6 @@ body {
 .fst-sec {
     background-image: url(pics/background1.jpg);
     display: flex;
-    width: 100%;
-    margin: 0;
-    padding: 0;
 }
 
 h1 {
@@ -21,8 +18,28 @@ h1 span {
     color: rgb(216, 76, 20);
 }
 
+a {
+    text-decoration: none;
+    background-color: rgb(255, 140, 0);
+    padding: 10px 40px;
+    border-radius: 10px;
+    color: white;
+}
+
 .fst-area {
     width: 40%;
     margin: 5%;
     padding: 5%;
+}
+
+.second-sec {
+    background-image: url(pics/background2.png);
+    display: flex;
+    width: 100%;
+}
+
+footer {
+    text-align: center;
+    margin: bottom 5px;
+    padding-bottom: 10px;
 }
