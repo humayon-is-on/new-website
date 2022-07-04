@@ -9,6 +9,7 @@ body {
     background-image: url(pics/background1.png);
     display: flex;
     color: white;
+    background-repeat: no-repeat;
 }
 
 h1 {
@@ -40,11 +41,13 @@ h1 span {
     background-image: url(pics/background2.png);
     display: flex;
     width: 100%;
+    background-repeat: no-repeat;
 }
 
 .third-sec {
     background-image: url(pics/background3.png);
     width: 100%;
+    background-repeat: no-repeat;
 }
 
 .xp-divs {
