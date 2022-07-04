@@ -1,24 +1,27 @@
 body {
+    background-color: rgb(2, 2, 35);
     font-family: 'Raleway', sans-serif;
     margin: 0;
     padding: 0;
 }
 
 .fst-sec {
-    background-image: url(pics/background1.jpg);
+    background-image: url(pics/background1.png);
     display: flex;
+    color: white;
 }
 
 h1 {
-    font-weight: 800;
+    font-weight: 700;
     font-size: 60px;
+    color: white;
 }
 
 h1 span {
     color: rgb(216, 76, 20);
 }
 
-a {
+.btn {
     text-decoration: none;
     background-color: rgb(255, 140, 0);
     padding: 10px 40px;
@@ -28,8 +31,9 @@ a {
 
 .fst-area {
     width: 40%;
-    margin: 5%;
-    padding: 5%;
+    margin: 3%;
+    padding: 3%;
+    color: white;
 }
 
 .second-sec {
@@ -38,8 +42,44 @@ a {
     width: 100%;
 }
 
+.third-sec {
+    background-image: url(pics/background3.png);
+    width: 100%;
+}
+
+.xp-divs {
+    display: flex;
+    width: 100%;
+}
+
+#exp {
+    text-align: center;
+    color: white;
+}
+
+h3 {
+    color: rgb(247, 70, 6);
+}
+
+.xp-sec {
+    margin: 10px 40px;
+    margin-bottom: 30px;
+    padding: 10px;
+    border-radius: 5px;
+    border-left: 5px solid orange;
+    border-right: 5px solid rgb(56, 1, 183);
+    box-shadow: 10px 10px 5xp rgb(0, 5, 7);
+    color: white;
+}
+
+#brdr {
+    border-left: 5px solid rgb(56, 1, 183);
+    border-right: 5px solid orange;
+}
+
 footer {
     text-align: center;
     margin: bottom 5px;
     padding-bottom: 10px;
+    color: white;
 }
