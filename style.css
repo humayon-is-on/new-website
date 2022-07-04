@@ -18,6 +18,11 @@ h1 {
     color: white;
 }
 
+#ml {
+    margin: 0;
+    font-size: 30px;
+}
+
 h1 span {
     color: rgb(216, 76, 20);
 }
@@ -66,13 +71,14 @@ h3 {
 
 .xp-sec {
     margin: 10px 40px;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
     padding: 10px;
     border-radius: 5px;
     border-left: 5px solid orange;
     border-right: 5px solid rgb(56, 1, 183);
     box-shadow: 10px 10px 5xp rgb(0, 5, 7);
     color: white;
+    box-shadow: 10px 10px 30px 10px rgb(241, 235, 223);
 }
 
 #brdr {
